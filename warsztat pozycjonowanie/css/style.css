@@ -1,0 +1,23 @@
+.outer {
+    width: 400px;
+    height: 400px;
+    border: 10px solid #666360;
+    background: #a6a9b6;
+    position: relative;
+}
+
+.inner {
+    position: absolute;
+    background: #e4e4e4;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    right: 0;
+}
+.inner--decor {
+    bottom: 0;
+    left: 0;
+    top: auto;
+    right: auto;
+    background: #ff912e;
+}

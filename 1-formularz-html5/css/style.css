@@ -1,0 +1,44 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+form {
+    background-color: #213b50;
+    padding: 2%;
+    width: 46%;
+}
+
+
+input, textarea, select {
+    border: 1px solid #213b50;
+    background-color: #2b4a64;
+    padding: 4px;
+    color: white;
+}
+
+textarea {
+    height: 120px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea, select {
+    width: 50%;
+    display: block;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: white;
+    background-color: #4e708c;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: springgreen;
+}

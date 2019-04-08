@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formspree.io/bntu2014@gmail.com" method="POST">
+        <label>imię:</label><br>
+        <input type="text" name="name">
+
+        <br>
+        <label>nazwisko:</label><br>
+        <input type="text" name="lastname">
+
+        <br>
+        <label>mail:</label><br>
+        <input type="email" name="mail">
+    
+        <br>
+        <label for="phone">telefon:</label><br>
+        <input type="tel" name="phone" id="phone">
+
+        <br>
+        <label>wybór miasta:</label><br>
+        <select name="city">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select>
+
+      	<p>płeć:</p>
+        <input type="radio" name="gender" value="male"><label>Mężczyzna</label>
+        <br>
+        <input type="radio" name="gender" value="female"><label>Kobieta</label>
+        <br>
+
+        <br>
+        <input type="checkbox" name="agreement">
+        <label>Wyrażam zgodę na przetwarzanie danych osobowych</label>
+
+        <br><br>
+        <label>wiadomość:</label><br>
+        <textarea name="message"></textarea>
+     
+        <br>
+        <input type="submit" value="SEND">
+    
+    </form>
+</body>
+</html>

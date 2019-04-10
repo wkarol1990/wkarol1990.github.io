@@ -8,42 +8,42 @@
 </head>
 <body>
     <form action="https://formspree.io/bntu2014@gmail.com" method="POST">
-        <label>imię:</label><br>
-        <input type="text" name="name">
+        <label for="name">imię:</label><br>
+        <input type="text" name="name" id="name">
 
         <br>
-        <label>nazwisko:</label><br>
-        <input type="text" name="lastname">
+        <label for="lastname">nazwisko:</label><br>
+        <input type="text" name="lastname" id="lastname">
 
         <br>
-        <label>mail:</label><br>
-        <input type="email" name="mail">
+        <label for="mail">mail:</label><br>
+        <input type="email" name="mail" id="mail">
     
         <br>
         <label for="phone">telefon:</label><br>
         <input type="tel" name="phone" id="phone">
 
         <br>
-        <label>wybór miasta:</label><br>
-        <select name="city">
+        <label for="city">wybór miasta:</label><br>
+        <select name="city" id="city">
             <option value="krakow">Kraków</option>
             <option value="warszawa">Warszawa</option>
             <option value="gdansk">Gdańsk</option>
         </select>
 
       	<p>płeć:</p>
-        <input type="radio" name="gender" value="male"><label>Mężczyzna</label>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Mężczyzna</label>
         <br>
-        <input type="radio" name="gender" value="female"><label>Kobieta</label>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label>
         <br>
 
         <br>
-        <input type="checkbox" name="agreement">
-        <label>Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        <input type="checkbox" id="agreement" name="agreement">
+        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label>
 
         <br><br>
-        <label>wiadomość:</label><br>
-        <textarea name="message"></textarea>
+        <label for="message">wiadomość:</label><br>
+        <textarea name="message" id="message"></textarea>
      
         <br>
         <input type="submit" value="SEND">

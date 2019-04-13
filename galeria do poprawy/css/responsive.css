@@ -1,0 +1,17 @@
+@media (min-width: 992px) {
+    #gallery {
+        width: 33%;
+    }
+}
+
+@media (min-width: 768px) {
+    #gallery {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #gallery {
+        width: 100%;
+    }
+}

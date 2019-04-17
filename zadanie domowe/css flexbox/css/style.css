@@ -1,0 +1,46 @@
+header {
+    background: orangered;
+    color: white;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+main { 
+    display: flex; 
+}
+main > article { 
+    order: 2;
+    min-width: 12em;
+    flex:1;
+    height: 400px;
+    color: white;
+    background: aqua;
+    text-align: center;
+    font-size: 25px;
+}
+main > nav { 
+    order: 1; 
+    width: 200px; 
+    height: 400px;
+    color: white;
+    background: green;
+    text-align: center;
+    font-size: 25px;
+}
+main > aside {
+    order: 3; 
+    width: 200px;  
+    height: 400px;
+    color: white;
+    background: pink;
+    text-align: center;
+    font-size: 25px;
+}
+footer {
+    background: blueviolet;
+    color: white;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+}

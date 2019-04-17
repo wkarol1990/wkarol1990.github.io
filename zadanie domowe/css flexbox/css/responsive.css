@@ -1,0 +1,34 @@
+@media all and (min-width: 992px) {
+    main > article, main > nav, main > aside {
+       display: flex;
+       width: auto;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    main {
+                    
+    }
+    main > article, main > aside {
+        
+        order: 1;
+        width: auto;
+    }
+    main > nav {
+        
+        order: 2;
+        width: auto;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    main {
+      display: flex; 
+      flex-flow: column; 
+    }
+    main > article, main > nav, main > aside {
+      order: 0; 
+      width: auto;
+    }
+}

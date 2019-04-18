@@ -43,7 +43,7 @@ Domyślne kolory 'flex-item' - END
 /*    align-items: center;*/
 /*    align-items: flex-start;*/
 /*    align-items: flex-end;*/
-/*    align-items: baseline*/
+   align-items: baseline;
 
 }
 

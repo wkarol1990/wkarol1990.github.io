@@ -36,11 +36,11 @@ Domyślne kolory 'flex-item' - END
     height: 700px;
 
     align-content: stretch;
-/*    align-content: center;    */
-/*    align-content: flex-start;*/
-/*    align-content: flex-end;*/
-/*    align-content: space-between;*/
-/*    align-content: space-around;*/
+   align-content: center;   
+   align-content: flex-start;
+   align-content: flex-end;
+   align-content: space-between;
+   align-content: space-around;
 
 
 }

@@ -1,22 +1,27 @@
 @media all and (min-width: 992px) {
-    main > article, main > nav, main > aside {
-       display: flex;
-       width: auto;
+    main > article, main > aside.aside-left, main > aside.aside-right {
+        width: auto;
     }
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
     main {
-                    
+        flex-wrap: wrap;   
     }
-    main > article, main > aside {
-        
-        order: 1;
+    main > article {
+        flex-basis: 80%;
+        order: -1;
         width: auto;
     }
-    main > nav {
-        
-        order: 2;
+
+    main > aside.aside-right {
+        order: 0;
+        flex-basis: 20%;
+        width: auto;
+    }
+    main > aside.aside-left {
+        flex-basis: 100%;
+        order: 1;
         width: auto;
     }
 }
@@ -24,11 +29,21 @@
 
 @media all and (max-width: 768px) {
     main {
-      display: flex; 
-      flex-flow: column; 
+        flex-wrap: wrap;
     }
-    main > article, main > nav, main > aside {
-      order: 0; 
-      width: auto;
+    main > article {
+        order: 0; 
+        flex-basis: auto;
+        width: auto;
+    }
+    main > aside.aside-left {
+        flex-basis: 100%;
+        order: 1;
+        width: auto;
+    }
+    main > aside.aside-right {
+        order: 2;
+        width: auto;
+        flex-basis: 100%;
     }
 }

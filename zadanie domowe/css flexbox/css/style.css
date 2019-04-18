@@ -19,7 +19,7 @@ main > article {
     text-align: center;
     font-size: 25px;
 }
-main > nav { 
+main > aside.aside-left { 
     order: 1; 
     width: 200px; 
     height: 400px;
@@ -28,7 +28,7 @@ main > nav {
     text-align: center;
     font-size: 25px;
 }
-main > aside {
+main > aside.aside-right {
     order: 3; 
     width: 200px;  
     height: 400px;

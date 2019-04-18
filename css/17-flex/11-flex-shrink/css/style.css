@@ -12,7 +12,7 @@ Domyślne kolory 'flex-item' - START
     margin: 3px;
     background-color: orange;
     flex-basis: 40%;
-/*    flex-shrink: 2;*/
+   flex-shrink: 2;
 }
 
 .flex-item:nth-last-of-type(odd) {

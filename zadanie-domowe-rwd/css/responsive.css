@@ -1,18 +1,16 @@
 @media all and (min-width: 1170px) {
-    .image1 {
-        position: relative;
+    div.image {
         width: 100%;
-    }
-
-    .image2 {
-        position: fixed;
-        width: 0;
+        height: 100vh;
+        background-image: url(../img/man-1.jpg);
+        background-size: cover;
+        background-position: center;
     }
       
     h2 {
         position: absolute;
-        top	: 400px;
-        left: 50px;
+        top	: 50vh;
+        left: 2vh;
         width: 100%;
         color: white;
         font-size: 50px;
@@ -21,8 +19,8 @@
     
     h3 {
         position: absolute;
-        top	: 350px;
-        left: 50px;
+        top	: 40vh;
+        left: 2vh;
         width: 100%;
         color: white;
         font-size: 30px;
@@ -33,63 +31,57 @@
 
 
 @media all and (min-width: 992px) and (max-width: 1170px) {
-    .image2 {
-        position: relative;
-        width: 70%;
-    }
-
-    .image1 {
-        position: fixed;
-        width: 0;
+    div.image {
+        width: 100%;
+        height: 70vh;
+        background-image: url(../img/man-2.jpg);
+        background-size: cover;
+        background-position: center;
     }
       
     h2 {
         position: absolute;
-        top: 150px;
-        left: 450px;
+        top: 15vh;
+        left: 110vh;
         width: 70%;
         color: white;
-        font-size: 15px;
+        font-size: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     h3 {
         position: absolute;
-        top	: 100px;
-        left: 450px;
+        top	: 5vh;
+        left: 110vh;
         width: 70%;
         color: white;
-        font-size: 15px;
+        font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 
 @media all and (max-width: 992px) {
-    .image1 {
-        position: relative;
-        width: 50%;
-    }
-
-    .image2 {
-        position: fixed;
-        width: 0;
+    div.image {
+        width: 100%;
+        height: 50vh;
+        background-image: url(../img/man-1.jpg);
+        background-size: cover;
+        background-position: center;
     }
       
     h2 {
-        position: absolute;
-        top	: 400px;
-        left: 50px;
-        width: 50%;
+        position: fixed;
+        left: 30%;
+        top: 60%;
         color: black;
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     h3 {
-        position: absolute;
-        top	: 350px;
-        left: 120px;
-        width: 50%;
+        position: fixed;
+        top	: 52%;
+        left: 40%;
         color: black;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;

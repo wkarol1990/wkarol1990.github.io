@@ -19,3 +19,12 @@ span {
     background-color: yellow !important;
     color: blue;
 }
+
+#parSecond {
+	border: 1px solid red;
+	background-color: lightcoral;
+}
+
+#parWParSecond {
+	background-color: yellow;
+}

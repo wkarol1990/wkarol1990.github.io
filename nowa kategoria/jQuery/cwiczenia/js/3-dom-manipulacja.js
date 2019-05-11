@@ -27,8 +27,14 @@
 //     'color': 'yellow',
 // });
 
-let pierwszyParagraf = $('.par').eq(0);
-console.log(pierwszyParagraf);
+// let pierwszyParagraf = $('.par').eq(0);
+// console.log(pierwszyParagraf);
 
-pierwszyParagraf.addClass('red');
-pierwszyParagraf.removeClass('red');
+// pierwszyParagraf.addClass('red');
+// pierwszyParagraf.removeClass('red');
+
+$('input#input-1').val('Jan Kowalaski');
+
+$('input#input-1').change(function() {
+    console.log($(this).val());
+});

@@ -6,9 +6,9 @@
 
 let tablica = [ "Ksystian", "Monika", "Danuta" ];
 
-for (let i=0; i < tablica.length; ++i) {
-    console.log(tablica[i]);
-}
+// for (let i=0; i < tablica.length; ++i) {
+//     console.log(tablica[i]);
+// }
 
 // const iteruj = ( element, index ) => {
 //     console.log( "Element z Indexem: " + index + " ma wartość " + element);

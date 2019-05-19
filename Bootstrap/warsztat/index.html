@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Warsztat Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Klub podróżniczy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#">Dołącz do nas</a>
+                <a class="nav-item nav-link" href="#">Inspiracje</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="poster">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <form action="" class="form">
+                        <!-- B z BEM czyli Blok-->
+                        <div class="form__header">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <h1>Dołącz do nas</h1>
+                                        <h2>Wypełnij zgłoszenie na członka klubu</h2>
+                                    </div>
+                                    <div class="col-3">
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__fields">
+                                <div class="form__field pt-4 pb-2">
+                                    <input type="text" placeholder="Imię i nazwisko">
+                                </div>
+                                <div class="form__field py-2">
+                                    <input type="email" placeholder="Email">
+                                </div>
+                                <div class="form__field py-2">
+                                    <input type="tel" placeholder="Telefon">
+                                </div>
+                                <div class="form__field py-2">
+                                    <input placeholder="Kilka słow o sobie">
+                                </div>
+                                <div class="form__field py-2">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div> <!-- E z BEM czyli Element-->
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="main-container">
+                        <h2>Świat jest na wyciągnięcie ręki</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, fugiat. Consequuntur
+                            blanditiis accusamus voluptas, soluta assumenda velit dignissimos cupiditate placeat quod
+                            beatae numquam voluptatum fugiat fugit deleniti sapiente laboriosam sint?</h3>
+                        <div class="btns-group">
+                            <button class="bnt btn--decor">Znajdż nas</button>
+                            <button class="btn btn--flat">Dowiedz się wisęcej</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <iframe src="https://player.vimeo.com/video/64135797" width="100%" frameborder="0"
+                        allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-7">
+                    <h2 class="_title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
+                    <p class="_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section content-section--decor">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="_title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
+                    <p class="_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            
+            <div class="col-md-5">
+                <h2 class="_title">Kontakt</h2>
+                <a href="mailto:aaa@ghyu.com">aaa@ghyu.com</a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

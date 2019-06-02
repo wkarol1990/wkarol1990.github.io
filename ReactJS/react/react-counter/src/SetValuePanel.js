@@ -7,7 +7,7 @@ const SetValuePanel = (props) => {
     return (
         <div className="button-panel">
             <input type="number" ref={input => objInput = input}/>
-            <button onClick={()=>{props.setCounter(parseInt(objInput.value))}}>Ustaw</button>
+            <button onClick={()=>{props.setCounter(parseInt(objInput.value))}}>Add user</button>
             
             
         </div>
